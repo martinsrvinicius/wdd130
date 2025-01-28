@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #2b3f6b;
+  --secondary-color: #5d7599;
+  --accent1-color: #e36f1e;
+  --accent2-color: #f2c94c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC", cursive;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: var(--accent1-color);
+}
+
+p {
+    color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1 {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    background-color: rgba(43, 63, 107, 0.7);
+    text-align: center;
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    background-color: rgba(93, 117, 153, 0.7);
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.hero article img  {
+    width: 180px;
+    float:right;
+}
+
+.hero article p {
+    color: white;
+}
