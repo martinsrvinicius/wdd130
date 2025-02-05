@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .history h2 {
- grid-row:1fr auto;
+ grid-row: 1 auto;
  grid-column: 1 / 4;
  align-items: center;
  text-align: center;
