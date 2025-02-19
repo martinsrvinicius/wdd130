@@ -24,7 +24,6 @@
     <main>
         <section class="company-info">
             <h1>Contact Us</h1>
-            <h2>Get in Touch</h2>
             <article>
                 <p>White Water Rafting</p>
                 <p>Rua dos Aventureiros, 123<br>Braga, Portugal</p>
@@ -36,7 +35,7 @@
                 </p>
             </article>
             <section class="map">
-                <h3>Our Location</h3>
+                <h2>Our Location</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23923.754018305888!2d-8.194973707107135!3d41.45073667651538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24e85fd1e927ad%3A0x95b2d3eeb46324fe!2sFafe!5e0!3m2!1spt-PT!2spt!4v1740007045167!5m2!1spt-PT!2spt" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </section>
@@ -68,16 +67,16 @@
 
                 <fieldset>
                     <legend>Purpose of your message:</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general-inquiry" required>
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general-inquiry" required>
                         General Inquiry
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation-question">
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation-question">
                         Reservation Question
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="website-suggestion">
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="website-suggestion">
                         Website Suggestion
                     </label>
                 </fieldset>
@@ -90,7 +89,7 @@
                     Please subscribe me to the monthly newsletter
                 </label>
 
-                <button type="submit">Submit Message</button>
+                <button id="submit" type="submit">Submit Message</button>
             </form>
         </section>
     </main>
